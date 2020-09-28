@@ -1,0 +1,23 @@
+For the implementation part, you will be using the Titanic dataset (available here).
+ Before proceeding with it, I would like to discuss some facts about the data itself. 
+The sinking of the RMS Titanic is one of the most infamous shipwrecks in history. 
+On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an
+ iceberg, killing 1502 out of 2224 passengers and crew. This sensational tragedy shocked 
+the international community and led to better safety regulations for ships.
+
+One of the reasons that the shipwreck led to such loss of life was that there were not
+ enough lifeboats for the passengers and crew. Although there was some element of luck
+ involved in surviving the sinking, some groups of people were more likely to survive 
+than others, such as women, children, and the upper-class.
+
+Now, talking about the dataset, the training set contains several records about the
+ passengers of Titanic (hence the name of the dataset). It has 12 features capturing
+ information about passenger_class, port_of_Embarkation, passenger_fare etc. 
+The dataset's label is survival which denotes the survivial status of a particular 
+passenger. Your task is to cluster the records into two i.e. the ones who survived
+ and the ones who did not.
+
+You might be thinking that since it is a labeled dataset, how could it be used for a 
+clustering task? You just have to drop the 'survival' column from the dataset and make 
+it unlabeled. It's the task of K-Means to cluster the records of the datasets if they
+ survived or not.
